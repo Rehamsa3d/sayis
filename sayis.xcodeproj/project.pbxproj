@@ -7,21 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FFD5F8BC440CADD5AAD9569 /* Pods_sayis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304B923BAB22E8FB93B31726 /* Pods_sayis.framework */; };
+		8002852B206A4B61001701EB /* UIViewController_Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8002852A206A4B61001701EB /* UIViewController_Extentions.swift */; };
+		8002852E206A6EB7001701EB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8002852D206A6EB7001701EB /* HomeVC.swift */; };
+		80034FDB2070F43A00374685 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80034FDA2070F43A00374685 /* ResetPasswordVC.swift */; };
+		80034FDD2071140B00374685 /* API+HomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80034FDC2071140B00374685 /* API+HomeExtension.swift */; };
+		80034FDF20712FE100374685 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80034FDE20712FE100374685 /* SideMenuVC.swift */; };
+		80034FE12072493B00374685 /* SideMenuTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80034FE02072493B00374685 /* SideMenuTableCell.swift */; };
+		80034FE32072597D00374685 /* SideMenuDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80034FE22072597C00374685 /* SideMenuDataList.swift */; };
+		80034FE520725F8D00374685 /* SideMenuUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80034FE420725F8D00374685 /* SideMenuUtil.swift */; };
+		80034FE72072722100374685 /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80034FE62072722100374685 /* OrdersVC.swift */; };
+		80034FE92072728F00374685 /* MyCarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80034FE82072728F00374685 /* MyCarVC.swift */; };
+		8003AAFD20625CC30069A0CC /* SayesTexField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003AAFC20625CC30069A0CC /* SayesTexField.swift */; };
+		8003AB00206260820069A0CC /* SayisButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003AAFF206260820069A0CC /* SayisButton.swift */; };
+		8003AB08206287870069A0CC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003AB07206287870069A0CC /* API.swift */; };
+		8003AB0B20628A350069A0CC /* String_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003AB0A20628A350069A0CC /* String_Extensions.swift */; };
+		8003AB0D20629B340069A0CC /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8003AB0C20629B330069A0CC /* URLS.swift */; };
+		807141DA2074DBF0009F46FC /* MapPositionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807141D92074DBF0009F46FC /* MapPositionVC.swift */; };
+		807141DC2074EAAA009F46FC /* SayisUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807141DB2074EAAA009F46FC /* SayisUIView.swift */; };
+		8072AFD820737DD200810938 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8072AFD720737DD200810938 /* MapKit.framework */; };
+		8072AFDA20739C6F00810938 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072AFD920739C6F00810938 /* CustomMarkerView.swift */; };
+		808AF6FE206A9B0700BFAD0B /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808AF6FD206A9B0700BFAD0B /* UserDataService.swift */; };
+		808AF701206BAF2B00BFAD0B /* UserUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808AF700206BAF2B00BFAD0B /* UserUtil.swift */; };
+		80A5BA782072E36D00E63FDE /* ComplaintsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5BA772072E36D00E63FDE /* ComplaintsVC.swift */; };
+		80A5BA7A2072E39600E63FDE /* ReportsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5BA792072E39600E63FDE /* ReportsVC.swift */; };
+		80A5BA7C2072E3B600E63FDE /* Reports1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5BA7B2072E3B600E63FDE /* Reports1VC.swift */; };
+		80A5BA7E2072E3CB00E63FDE /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5BA7D2072E3CB00E63FDE /* SettingsVC.swift */; };
 		80D7B78F205E67B1002A7E33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7B78E205E67B1002A7E33 /* AppDelegate.swift */; };
-		80D7B791205E67B1002A7E33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7B790205E67B1002A7E33 /* ViewController.swift */; };
+		80D7B791205E67B1002A7E33 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7B790205E67B1002A7E33 /* SignInVC.swift */; };
 		80D7B794205E67B1002A7E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D7B792205E67B1002A7E33 /* Main.storyboard */; };
 		80D7B796205E67B1002A7E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7B795205E67B1002A7E33 /* Assets.xcassets */; };
 		80D7B799205E67B1002A7E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D7B797205E67B1002A7E33 /* LaunchScreen.storyboard */; };
+		80D7B7A7205F1F3A002A7E33 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7B7A6205F1F3A002A7E33 /* SignUpVC.swift */; };
+		80F6212B206103BE0001C71F /* SayisNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6212A206103BE0001C71F /* SayisNC.swift */; };
+		80F92E4A2060D2DB00FA4E1B /* SendResetPasswordCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F92E492060D2DB00FA4E1B /* SendResetPasswordCodeVC.swift */; };
+		80F92E4C2060DDE100FA4E1B /* SMSCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F92E4B2060DDE100FA4E1B /* SMSCodeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08AC56CFDEE548100B58BB4D /* Pods-sayis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sayis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sayis/Pods-sayis.debug.xcconfig"; sourceTree = "<group>"; };
+		304B923BAB22E8FB93B31726 /* Pods_sayis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sayis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8002852A206A4B61001701EB /* UIViewController_Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_Extentions.swift; sourceTree = "<group>"; };
+		8002852D206A6EB7001701EB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		80034FDA2070F43A00374685 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		80034FDC2071140B00374685 /* API+HomeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+HomeExtension.swift"; sourceTree = "<group>"; };
+		80034FDE20712FE100374685 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		80034FE02072493B00374685 /* SideMenuTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableCell.swift; sourceTree = "<group>"; };
+		80034FE22072597C00374685 /* SideMenuDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuDataList.swift; sourceTree = "<group>"; };
+		80034FE420725F8D00374685 /* SideMenuUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuUtil.swift; sourceTree = "<group>"; };
+		80034FE62072722100374685 /* OrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
+		80034FE82072728F00374685 /* MyCarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarVC.swift; sourceTree = "<group>"; };
+		8003AAFC20625CC30069A0CC /* SayesTexField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayesTexField.swift; sourceTree = "<group>"; };
+		8003AAFF206260820069A0CC /* SayisButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayisButton.swift; sourceTree = "<group>"; };
+		8003AB02206262BB0069A0CC /* ltbukrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ltbukrabold.ttf; sourceTree = "<group>"; };
+		8003AB03206262BB0069A0CC /* Neo Sans Arabic bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Arabic bold.ttf"; sourceTree = "<group>"; };
+		8003AB04206262BB0069A0CC /* NeoSansArabic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NeoSansArabic.ttf; sourceTree = "<group>"; };
+		8003AB07206287870069A0CC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		8003AB0A20628A350069A0CC /* String_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Extensions.swift; sourceTree = "<group>"; };
+		8003AB0C20629B330069A0CC /* URLS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLS.swift; sourceTree = "<group>"; };
+		807141D92074DBF0009F46FC /* MapPositionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPositionVC.swift; sourceTree = "<group>"; };
+		807141DB2074EAAA009F46FC /* SayisUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayisUIView.swift; sourceTree = "<group>"; };
+		8072AFD720737DD200810938 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8072AFD920739C6F00810938 /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		808AF6FD206A9B0700BFAD0B /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		808AF700206BAF2B00BFAD0B /* UserUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUtil.swift; sourceTree = "<group>"; };
+		80A5BA772072E36D00E63FDE /* ComplaintsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintsVC.swift; sourceTree = "<group>"; };
+		80A5BA792072E39600E63FDE /* ReportsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsVC.swift; sourceTree = "<group>"; };
+		80A5BA7B2072E3B600E63FDE /* Reports1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reports1VC.swift; sourceTree = "<group>"; };
+		80A5BA7D2072E3CB00E63FDE /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		80D7B78B205E67B1002A7E33 /* sayis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sayis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D7B78E205E67B1002A7E33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80D7B790205E67B1002A7E33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80D7B790205E67B1002A7E33 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		80D7B793205E67B1002A7E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80D7B795205E67B1002A7E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80D7B798205E67B1002A7E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80D7B79A205E67B1002A7E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D7B7A6205F1F3A002A7E33 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		80F6212A206103BE0001C71F /* SayisNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayisNC.swift; sourceTree = "<group>"; };
+		80F92E492060D2DB00FA4E1B /* SendResetPasswordCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendResetPasswordCodeVC.swift; sourceTree = "<group>"; };
+		80F92E4B2060DDE100FA4E1B /* SMSCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeVC.swift; sourceTree = "<group>"; };
+		8DDEA7D164208FB32C67FD95 /* Pods-sayis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sayis.release.xcconfig"; path = "Pods/Target Support Files/Pods-sayis/Pods-sayis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +94,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8072AFD820737DD200810938 /* MapKit.framework in Frameworks */,
+				0FFD5F8BC440CADD5AAD9569 /* Pods_sayis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59398735B001D9DF38C3514A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08AC56CFDEE548100B58BB4D /* Pods-sayis.debug.xcconfig */,
+				8DDEA7D164208FB32C67FD95 /* Pods-sayis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		790A4422EC64A0262C1B14EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8072AFD720737DD200810938 /* MapKit.framework */,
+				304B923BAB22E8FB93B31726 /* Pods_sayis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8002852C206A5878001701EB /* storybords */ = {
+			isa = PBXGroup;
+			children = (
+				80D7B792205E67B1002A7E33 /* Main.storyboard */,
+				80D7B797205E67B1002A7E33 /* LaunchScreen.storyboard */,
+			);
+			path = storybords;
+			sourceTree = "<group>";
+		};
+		8003AAFE206260440069A0CC /* main Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8003AAFC20625CC30069A0CC /* SayesTexField.swift */,
+				807141DB2074EAAA009F46FC /* SayisUIView.swift */,
+				8003AAFF206260820069A0CC /* SayisButton.swift */,
+			);
+			path = "main Classes";
+			sourceTree = "<group>";
+		};
+		8003AB01206262BB0069A0CC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8003AB02206262BB0069A0CC /* ltbukrabold.ttf */,
+				8003AB03206262BB0069A0CC /* Neo Sans Arabic bold.ttf */,
+				8003AB04206262BB0069A0CC /* NeoSansArabic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		8003AB09206289710069A0CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8003AB0A20628A350069A0CC /* String_Extensions.swift */,
+				8002852A206A4B61001701EB /* UIViewController_Extentions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		808AF6FF206BAF0600BFAD0B /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				808AF700206BAF2B00BFAD0B /* UserUtil.swift */,
+				80034FE420725F8D00374685 /* SideMenuUtil.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
 		80D7B782205E67B1002A7E33 = {
 			isa = PBXGroup;
 			children = (
+				80D7B7A5205E684F002A7E33 /* helper */,
+				8003AB09206289710069A0CC /* Extensions */,
+				80D7B7A3205E680B002A7E33 /* API */,
+				808AF6FF206BAF0600BFAD0B /* Stores */,
+				80F625EF206A88450063E405 /* model */,
 				80D7B78D205E67B1002A7E33 /* sayis */,
 				80D7B78C205E67B1002A7E33 /* Products */,
+				59398735B001D9DF38C3514A /* Pods */,
+				790A4422EC64A0262C1B14EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +194,73 @@
 		80D7B78D205E67B1002A7E33 /* sayis */ = {
 			isa = PBXGroup;
 			children = (
+				80D7B7A2205E6805002A7E33 /* view */,
+				80D7B7A0205E67DB002A7E33 /* controller */,
 				80D7B78E205E67B1002A7E33 /* AppDelegate.swift */,
-				80D7B790205E67B1002A7E33 /* ViewController.swift */,
-				80D7B792205E67B1002A7E33 /* Main.storyboard */,
-				80D7B795205E67B1002A7E33 /* Assets.xcassets */,
-				80D7B797205E67B1002A7E33 /* LaunchScreen.storyboard */,
 				80D7B79A205E67B1002A7E33 /* Info.plist */,
 			);
 			path = sayis;
+			sourceTree = "<group>";
+		};
+		80D7B7A0205E67DB002A7E33 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				80D7B790205E67B1002A7E33 /* SignInVC.swift */,
+				80D7B7A6205F1F3A002A7E33 /* SignUpVC.swift */,
+				80F92E492060D2DB00FA4E1B /* SendResetPasswordCodeVC.swift */,
+				80F92E4B2060DDE100FA4E1B /* SMSCodeVC.swift */,
+				8002852D206A6EB7001701EB /* HomeVC.swift */,
+				80034FDE20712FE100374685 /* SideMenuVC.swift */,
+				80034FDA2070F43A00374685 /* ResetPasswordVC.swift */,
+				80034FE82072728F00374685 /* MyCarVC.swift */,
+				80A5BA772072E36D00E63FDE /* ComplaintsVC.swift */,
+				80A5BA792072E39600E63FDE /* ReportsVC.swift */,
+				80A5BA7B2072E3B600E63FDE /* Reports1VC.swift */,
+				80A5BA7D2072E3CB00E63FDE /* SettingsVC.swift */,
+				80034FE62072722100374685 /* OrdersVC.swift */,
+				807141D92074DBF0009F46FC /* MapPositionVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		80D7B7A2205E6805002A7E33 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8002852C206A5878001701EB /* storybords */,
+				80F6212A206103BE0001C71F /* SayisNC.swift */,
+				80034FE02072493B00374685 /* SideMenuTableCell.swift */,
+				8072AFD920739C6F00810938 /* CustomMarkerView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		80D7B7A3205E680B002A7E33 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8003AB07206287870069A0CC /* API.swift */,
+				80034FDC2071140B00374685 /* API+HomeExtension.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		80D7B7A5205E684F002A7E33 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				80D7B795205E67B1002A7E33 /* Assets.xcassets */,
+				8003AAFE206260440069A0CC /* main Classes */,
+				8003AB01206262BB0069A0CC /* Fonts */,
+				8003AB0C20629B330069A0CC /* URLS.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		80F625EF206A88450063E405 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				808AF6FD206A9B0700BFAD0B /* UserDataService.swift */,
+				80034FE22072597C00374685 /* SideMenuDataList.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80D7B79D205E67B1002A7E33 /* Build configuration list for PBXNativeTarget "sayis" */;
 			buildPhases = (
+				16E348B9ADC58E5350B23879 /* [CP] Check Pods Manifest.lock */,
 				80D7B787205E67B1002A7E33 /* Sources */,
 				80D7B788205E67B1002A7E33 /* Frameworks */,
 				80D7B789205E67B1002A7E33 /* Resources */,
+				DA1DE02D9FE4A323D1D4C4AD /* [CP] Embed Pods Frameworks */,
+				7842CCEB127744D43B79A977 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +299,14 @@
 					80D7B78A205E67B1002A7E33 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -131,13 +341,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16E348B9ADC58E5350B23879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sayis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7842CCEB127744D43B79A977 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sayis/Pods-sayis-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sayis/Pods-sayis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1DE02D9FE4A323D1D4C4AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sayis/Pods-sayis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sayis/Pods-sayis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80D7B787205E67B1002A7E33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D7B791205E67B1002A7E33 /* ViewController.swift in Sources */,
+				807141DC2074EAAA009F46FC /* SayisUIView.swift in Sources */,
+				80034FE92072728F00374685 /* MyCarVC.swift in Sources */,
+				80034FDF20712FE100374685 /* SideMenuVC.swift in Sources */,
+				8003AB08206287870069A0CC /* API.swift in Sources */,
+				80034FE12072493B00374685 /* SideMenuTableCell.swift in Sources */,
+				80D7B791205E67B1002A7E33 /* SignInVC.swift in Sources */,
+				80034FDD2071140B00374685 /* API+HomeExtension.swift in Sources */,
+				8003AB0D20629B340069A0CC /* URLS.swift in Sources */,
+				80D7B7A7205F1F3A002A7E33 /* SignUpVC.swift in Sources */,
+				8003AB0B20628A350069A0CC /* String_Extensions.swift in Sources */,
+				8072AFDA20739C6F00810938 /* CustomMarkerView.swift in Sources */,
+				808AF701206BAF2B00BFAD0B /* UserUtil.swift in Sources */,
+				80F92E4A2060D2DB00FA4E1B /* SendResetPasswordCodeVC.swift in Sources */,
+				80034FDB2070F43A00374685 /* ResetPasswordVC.swift in Sources */,
+				80A5BA7C2072E3B600E63FDE /* Reports1VC.swift in Sources */,
+				8003AB00206260820069A0CC /* SayisButton.swift in Sources */,
+				80034FE520725F8D00374685 /* SideMenuUtil.swift in Sources */,
+				8003AAFD20625CC30069A0CC /* SayesTexField.swift in Sources */,
+				80034FE32072597D00374685 /* SideMenuDataList.swift in Sources */,
+				80A5BA782072E36D00E63FDE /* ComplaintsVC.swift in Sources */,
+				80A5BA7A2072E39600E63FDE /* ReportsVC.swift in Sources */,
+				8002852E206A6EB7001701EB /* HomeVC.swift in Sources */,
+				808AF6FE206A9B0700BFAD0B /* UserDataService.swift in Sources */,
+				807141DA2074DBF0009F46FC /* MapPositionVC.swift in Sources */,
+				80A5BA7E2072E3CB00E63FDE /* SettingsVC.swift in Sources */,
+				80F6212B206103BE0001C71F /* SayisNC.swift in Sources */,
+				8002852B206A4B61001701EB /* UIViewController_Extentions.swift in Sources */,
 				80D7B78F205E67B1002A7E33 /* AppDelegate.swift in Sources */,
+				80F92E4C2060DDE100FA4E1B /* SMSCodeVC.swift in Sources */,
+				80034FE72072722100374685 /* OrdersVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +573,11 @@
 		};
 		80D7B79E205E67B1002A7E33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08AC56CFDEE548100B58BB4D /* Pods-sayis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU6FK3PG77;
 				INFOPLIST_FILE = sayis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.sayis;
@@ -286,9 +589,11 @@
 		};
 		80D7B79F205E67B1002A7E33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDEA7D164208FB32C67FD95 /* Pods-sayis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU6FK3PG77;
 				INFOPLIST_FILE = sayis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.sayis;
